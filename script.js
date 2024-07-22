@@ -11,11 +11,14 @@ const ulNavbar = document.querySelector('.ul-navbar');
 
 hamburger.addEventListener('click', () => {
     ulNavbar.classList.toggle('v-class');
-    nav.classList.toggle('h-nav-expanded'); 
+    nav.classList.toggle('h-nav-expanded');
 
-    if (nav.classList.contains('h-nav-expanded')) {
-        nav.style.height = '472px'; // Set height to 472px when expanded
+    // Toggle opacity of ulNavbar
+    if (ulNavbar.classList.contains('v-class')) {
+        ulNavbar.style.opacity = '1'; // Set opacity to 1 when v-class is added
+        nav.style.height = '252px'; // Set height to 252px when expanded
     } else {
+        ulNavbar.style.opacity = '0'; // Set opacity to 0 when v-class is removed
         nav.style.height = '72px'; // Set height back to 72px when collapsed
     }
 });

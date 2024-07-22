@@ -8,6 +8,10 @@ body {
 
 }
 
+.h-nav {
+  height: 87px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -21,7 +25,7 @@ html {
 
 #particles-js {
   width: 100%;
-  height: 6200px;
+  height: 5800px;
   position: absolute;
   color: #00ccff;
   background-image: url("");
@@ -929,14 +933,23 @@ html {
 
 
 @media only screen and (max-width: 600px) {
+  html , body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(8, 20, 43);
+  
+  }
  
 
   .logo img {
-    height: 230px;
+    height: 138px;
 }
   
 .nav ul {
-  margin-right: 238px;
+  margin-right: -267px;
   margin-left: -47px;
 }
 
@@ -948,12 +961,12 @@ html {
     opacity: 0;
   }
   .hamburger img {
-    height: 82px;
+    height: 49px;
     display: block;
 }
-  .navbar {
-    transition: all 5.7s ease-out;
-  }
+.navbar {
+  transition: all 0.3s ease-out; 
+}
 
   .ul-navbar {
     display: flex;
@@ -962,13 +975,12 @@ html {
   }
 
   .nav ul li {
-    margin: 5px 0px;
-  }
-
+    margin: 6px 0px;
+}
   .nav ul li a {
-    font-size: 57px;
+    margin-right: 266px;
+    font-size: 23px;
     padding: 45px;
-    margin: 45px 55px;
   }
 
   .timeline {
@@ -980,24 +992,25 @@ html {
   }
 
   #home{
+    margin: 96px 37px;
     display: flex;
     flex-direction: column-reverse;
   }
 
   .info {
-    width: 298%;
+    width: 80%;
 }
-  .info h1 {
-    font-size: 67px;
-    color: #00ccff;
+.info h1 {
+  font-size: 44px;
+  color: #00ccff;
 }
-.info h3{
-  font-size: 67px;
+.info h3 {
+  font-size: 30px;
   color: white;
 }
 .info p {
-  font-size: 44px;
-  line-height: 44px;
+  font-size: 23px;
+  line-height: 26px;
 }
 .i a i {
   font-size: 64px;
@@ -1006,24 +1019,28 @@ html {
   display: flex;
   gap: 5px;
 }
-  #home .image img{
-    margin: 104px;
-    justify-content: center;
-    width: 286%;
-    height: 300%;
-  }
+
+#home .image img {
+  width: 100%; 
+  height: auto; 
+  max-width: none; 
+  margin-bottom: 10px; 
+}
 
 
-
-
+.container {
+  margin: 0;
+  padding: 10px;
+}
 .h2 {
   font-weight: 700;
-  font-size: 101px;
+  font-size: 54px;
   text-align: center;
-  margin: 100px 418px;
+  margin: 100px 115px;
 }
 .services {
-  width: 257%;
+  margin: 3px 32px;
+  width: 82%;
   display: flex;
   flex-direction: column;
 }
@@ -1031,20 +1048,22 @@ html {
   text-align: center;
 }
 .services1 {
-  margin: 44px 102px;
-  height: 817px;
-  width: 820px;
+  height: 690px;
+  width: 100%;
 }
+
+
+
 .ser1 img {
-  height: 203px;
+  height: 115px;
 }
 .ser1 h2 {
-  font-size: 59px;
+  font-size: 36px;
   font-weight: revert;
 }
 .ser1 p {
-  font-size: 44px;
-  line-height: 44px;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 
@@ -1057,15 +1076,15 @@ html {
 
 
 .text-box p{
-  font-size: 44px;
-  line-height: 44px;
+  font-size: 20px;
+  line-height: 26px;
 }
 .text-box small {
-  font-size: 39px;
+  font-size: 29px;
   font-weight: 200;
 }
 .text-box h2 {
-  font-size: 55px;
+  font-size: 36px;
   font-weight: 700;
 }
 .skcontainer img{
@@ -1078,86 +1097,81 @@ html {
 }
 .progress-line {
   position: relative;
-  width: 75%;
-  height: 15px;
+  width: 23%;
+  height: 8px;
   border-radius: 10px;
   overflow: hidden;
 }
 .bar .indfo span {
-  font-size: 43px;
+  font-size: 24px;
   font-weight: 500;
 }
 .h h6 {
-  right: 353px;
-  top: -22px;
+  right: 1015px;
+  top: 46px;
   color: #fff;
-  font-size: 37px;
+  font-size: 18px;
   font-weight: 500;
 }
 .c h6{
-  right: 353px;
-  top: 128px;
+  right: 1015px;
+  top: 161px;
   color: #fff;
-  font-size: 37px;
+  font-size: 18px;
   font-weight: 500;
 }
 .j h6{
-  right: 353px;
-  top: 269px;
+  right: 1015px;
+  top: 276px;
   color: #fff;
-  font-size: 37px;
+  font-size: 18px;
   font-weight: 500;
 }
 .tail h6{
-  right: 353px;
-  top: 413px;
+  right: 1015px;
+  top: 393px;
   color: #fff;
-  font-size: 37px;
+  font-size: 18px;
   font-weight: 500;
 }
 .re h6{ 
-  right: 353px;
-  top: 570px;
+  right: 1015px;
+  top: 507px;
   color: #fff;
-  font-size: 37px;
+  font-size: 18px;
   font-weight: 500;
 }
 
   .text-box {
     font-size: 13px;
   }
+.left-container,
+.right-container {
+  width: 100%; /* Adjusted to 100% */
+  padding-left: 20px; /* Adjust padding as needed */
+  padding-right: 20px; /* Adjust padding as needed */
+}
 
-  .left-container{
-    width: 224%;
-    padding-left: 49px;
-    padding-right: 25px;
-    height: 900px;
-  }
 
   .text-box small {
     margin-bottom: 10px;
   }
-  #particles-js {
-    width: 270%;
-    height: 17200px;
-    position: absolute;
+  /* #particles-js {
+    width: 100%; 
+    height: 12988px; 
     color: #00ccff;
     background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    
-  }
+  } */
   .text2 {
     color: white;
     font-size: 29px;
 }
 
   .right-container {    
-        width: 224%;
-      padding-left: 49px;
-      padding-right: 25px;
-      height: 900px;
+
     left: 0;
   }
 
@@ -1176,12 +1190,12 @@ html {
 
 
   #portfolio{
+    margin: 22px;
     display: flex;
     flex-direction: column;
   }
   .image-container {
-    margin: 20px 169px;
-    width: 530px;
+    width: 100%;
     height: 383px;
 }
   .image-overlay h2 {
@@ -1195,7 +1209,7 @@ html {
   margin: 40px -4px;
 }
 .container2 {
-  flex-direction: column;
+  height: 2000px;
   align-items: center;
 }
 
@@ -1228,38 +1242,48 @@ html {
 
 
 .container-certificate {
-  margin: -8px;
+  margin: 0px;
   display: flex;
   flex-direction: column;
 }
 .certificate1 img {
-  margin-left: 79px;
+  margin-left: 35px;
   justify-content: center;
-  height: 644px;
+  height: 268px;
 }
 .certificate2 img {
-  height: 644px;
+  margin-left: -42px;
+  justify-content: center;
+  height: 268px;
 }
-  .certificate3 img {
-    height: 644px;
-  }
+.certificate3 img {
+  margin-right: 146px;
+  justify-content: center;
+  height: 241px;
+}
   .certificate2 h1 {
     margin-right: 108px;
     text-align: center;
-    font-size: 57px;
+    font-size: 22px;
     font-weight: 800;
 }
 .certificate1 h1 {
   margin-right: 108px;
   text-align: center;
-  font-size: 57px;
+  font-size: 22px;
   font-weight: 800;
 }
 .certificate3 h1 {
   margin-right: 108px;
   text-align: center;
-  font-size: 57px;
+  font-size: 22px;
   font-weight: 800;
+}
+
+
+
+#contact {
+  margin: 21px;
 }
 #contact h1 {
   font-size: 47px;
@@ -1267,34 +1291,31 @@ html {
   text-align: center;
 }
 .container form label{
-font-size: 51px;
+font-size: 30px;
 }
 .flex{
   display: flex;
   flex-direction: column;
 }
 .container form input, .container form textarea {
-  width: 698%;
-  padding: 41px 9px;
+  width: 178%;
+  padding: 13px 9px;
 }
 
-.container form input[type="text"]::placeholder,
-  .container form textarea::placeholder {
-    font-size: 38px;
-  }
-.btn{
-  font-size: 34px;
-  width: 203px;
-  height: 90px;
+
+.btn {
+  font-size: 21px;
+  width: 161px;
+  height: 43px;
 }
 #earth {
   position: relative;
-  width: 590px;
-  height: 577px;
+  width: 338px;
+  height: 311px;
 }
 
 .globe {
-  margin-left: 163px;
-  margin-top: 50px;
+  margin-left: 12px;
+  margin-top: 104px;
 }
 }
