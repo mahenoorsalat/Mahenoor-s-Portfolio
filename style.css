@@ -945,7 +945,10 @@ html {
  
 
   .logo img {
-    height: 138px;
+    height: 114px;
+}
+.nav img {
+  margin-right: 44px;
 }
   
 .nav ul {
@@ -1021,10 +1024,10 @@ html {
 }
 
 #home .image img {
-  width: 100%; 
-  height: auto; 
-  max-width: none; 
-  margin-bottom: 10px; 
+  width: 100%;
+  height: auto;
+  max-width: none;
+  margin-bottom: 34px;
 }
 
 
@@ -1048,7 +1051,7 @@ html {
   text-align: center;
 }
 .services1 {
-  height: 690px;
+  height: 707px;
   width: 100%;
 }
 
@@ -1156,15 +1159,9 @@ html {
   .text-box small {
     margin-bottom: 10px;
   }
-  /* #particles-js {
-    width: 100%; 
-    height: 12988px; 
-    color: #00ccff;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-  } */
+  #particles-js {
+    display: none;
+  }
   .text2 {
     color: white;
     font-size: 29px;
@@ -1223,7 +1220,7 @@ html {
 
 .heading1 {
   font-weight: 500;
-  font-size: 49px;
+  font-size: 44px;
   text-align: center;
   margin: 119px 248px;
 }
