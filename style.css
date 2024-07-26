@@ -1026,12 +1026,12 @@ html {
   }
 
   .info p {
-    font-size: 19px;
-    line-height: 26px;
+    font-size: 17px;
+    line-height: 22px;
   }
 
   .i a i {
-    font-size: 35px;
+    font-size: 27px;
   }
 
   .i a {
@@ -1044,7 +1044,7 @@ html {
     height: auto;
     max-width: none;
     margin-bottom: 34px;
-}
+  }
 
   .container {
     margin: 0;
@@ -1056,7 +1056,8 @@ html {
     font-size: 54px;
     text-align: center;
     margin: 100px 71px;
-}
+  }
+
   .services {
     margin: 3px 32px;
     width: 82%;
@@ -1137,7 +1138,7 @@ html {
   }
 
   .h h6 {
-    right: 1048px;
+    right: 1020px;
     top: 46px;
     color: #fff;
     font-size: 18px;
@@ -1145,7 +1146,7 @@ html {
   }
 
   .c h6 {
-    right: 1048px;
+    right: 1020px;
     top: 161px;
     color: #fff;
     font-size: 18px;
@@ -1153,7 +1154,7 @@ html {
   }
 
   .j h6 {
-    right: 1048px;
+    right: 1020px;
     top: 276px;
     color: #fff;
     font-size: 18px;
@@ -1161,7 +1162,7 @@ html {
   }
 
   .tail h6 {
-    right: 1048px;
+    right: 1020px;
     top: 393px;
     color: #fff;
     font-size: 18px;
@@ -1169,7 +1170,7 @@ html {
   }
 
   .re h6 {
-    right: 1048px;
+    right: 1020px;
     top: 507px;
     color: #fff;
     font-size: 18px;
@@ -1282,13 +1283,11 @@ html {
     display: flex;
     flex-direction: column;
   }
-
   .certificate1 img {
-    margin-left: 35px;
+    margin-left: 25px;
     justify-content: center;
     height: 268px;
-  }
-
+}
   .certificate2 img {
     margin-left: -42px;
     justify-content: center;
