@@ -948,7 +948,7 @@ html {
     height: 114px;
 }
 .nav img {
-  margin-right: 44px;
+  margin-right: 52px;
 }
   
 .nav ul {
@@ -964,7 +964,7 @@ html {
     opacity: 0;
   }
   .hamburger img {
-    height: 49px;
+    height: 36px;
     display: block;
 }
 .navbar {
@@ -1001,7 +1001,7 @@ html {
   }
 
   .info {
-    width: 80%;
+    width: 66%;
 }
 .info h1 {
   font-size: 44px;
@@ -1012,11 +1012,11 @@ html {
   color: white;
 }
 .info p {
-  font-size: 23px;
+  font-size: 19px;
   line-height: 26px;
 }
 .i a i {
-  font-size: 64px;
+  font-size: 35px;
 }
 .i a{
   display: flex;
@@ -1024,12 +1024,11 @@ html {
 }
 
 #home .image img {
-  width: 100%;
+  width: 86%;
   height: auto;
   max-width: none;
   margin-bottom: 34px;
 }
-
 
 .container {
   margin: 0;
@@ -1051,8 +1050,8 @@ html {
   text-align: center;
 }
 .services1 {
-  height: 707px;
-  width: 100%;
+  height: 755px;
+  width: 84%;
 }
 
 
@@ -1109,37 +1108,36 @@ html {
   font-size: 24px;
   font-weight: 500;
 }
-.h h6 {
-  right: 1015px;
+.h h6 {       
+   right: 1048px;
   top: 46px;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
 }
 .c h6{
-  right: 1015px;
-  top: 161px;
+  right: 1048px;  top: 161px;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
 }
 .j h6{
-  right: 1015px;
-  top: 276px;
+  right: 1048px;
+    top: 276px;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
 }
 .tail h6{
-  right: 1015px;
-  top: 393px;
+  right: 1048px;
+    top: 393px;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
 }
 .re h6{ 
-  right: 1015px;
-  top: 507px;
+  right: 1048px;
+    top: 507px;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
@@ -1148,11 +1146,10 @@ html {
   .text-box {
     font-size: 13px;
   }
-.left-container,
-.right-container {
-  width: 100%; /* Adjusted to 100% */
-  padding-left: 20px; /* Adjust padding as needed */
-  padding-right: 20px; /* Adjust padding as needed */
+  .left-container, .right-container {
+    width: 86%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -1192,7 +1189,7 @@ html {
     flex-direction: column;
   }
   .image-container {
-    width: 100%;
+    width: 80%;
     height: 383px;
 }
   .image-overlay h2 {
@@ -1220,9 +1217,9 @@ html {
 
 .heading1 {
   font-weight: 500;
-  font-size: 44px;
+  font-size: 22px;
   text-align: center;
-  margin: 119px 248px;
+  margin: -32px 223px;
 }
 .skcontainer {
   margin-left: 33px;
@@ -1295,7 +1292,7 @@ font-size: 30px;
   flex-direction: column;
 }
 .container form input, .container form textarea {
-  width: 178%;
+  width: 158%;
   padding: 13px 9px;
 }
 
