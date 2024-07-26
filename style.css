@@ -677,13 +677,12 @@ html {
 }
 
 .container2 {
-  margin-top: -84px;
+  margin-top: -47px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   height: 100vh;
   align-items: center;
-
 }
 
 .progress {
@@ -832,12 +831,11 @@ html {
 
 .container-certificate {
   display: flex;
-  margin: 34px 180px;
+  margin: 34px 72px;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
-
 
 #earth {
   position: relative;
