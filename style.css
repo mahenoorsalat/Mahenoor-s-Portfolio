@@ -1006,10 +1006,10 @@ html {
   }
 
   #home {
-    margin: 96px 37px;
+    margin: 96px 19px;
     display: flex;
     flex-direction: column-reverse;
-  }
+}
 
   .info {
     width: 80%;
@@ -1066,6 +1066,7 @@ html {
   }
 
   .ser1 {
+    padding: 21px 9px;
     text-align: center;
   }
 
@@ -1178,6 +1179,7 @@ html {
   }
 
   .text-box {
+    padding: 20px 11px;
     font-size: 13px;
   }
 
