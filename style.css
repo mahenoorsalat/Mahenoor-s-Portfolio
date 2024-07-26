@@ -1001,7 +1001,7 @@ html {
   }
 
   .info {
-    width: 66%;
+    width: 80%;
 }
 .info h1 {
   font-size: 44px;
@@ -1051,7 +1051,7 @@ html {
 }
 .services1 {
   height: 755px;
-  width: 84%;
+  width: 96%;
 }
 
 
@@ -1147,11 +1147,10 @@ html {
     font-size: 13px;
   }
   .left-container, .right-container {
-    width: 86%;
+    width: 94%;
     padding-left: 20px;
     padding-right: 20px;
 }
-
 
   .text-box small {
     margin-bottom: 10px;
@@ -1189,7 +1188,7 @@ html {
     flex-direction: column;
   }
   .image-container {
-    width: 80%;
+    width: 92%;
     height: 383px;
 }
   .image-overlay h2 {
@@ -1219,7 +1218,7 @@ html {
   font-weight: 500;
   font-size: 22px;
   text-align: center;
-  margin: -32px 223px;
+  margin: -32px 249px;
 }
 .skcontainer {
   margin-left: 33px;
@@ -1270,7 +1269,7 @@ html {
 .certificate3 h1 {
   margin-right: 108px;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 800;
 }
 
@@ -1292,7 +1291,7 @@ font-size: 30px;
   flex-direction: column;
 }
 .container form input, .container form textarea {
-  width: 158%;
+  width: 173%;
   padding: 13px 9px;
 }
 
