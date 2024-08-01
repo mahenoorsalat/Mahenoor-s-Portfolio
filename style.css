@@ -953,12 +953,9 @@ html {
 
 
   #particles-js {
-    width: 100%;
-    height: 2000px;
-    opacity: 9.9;
-    position: absolute;
-    color: #00ccff;
+    display: none;
   }
+
 
 
 
