@@ -170,7 +170,7 @@ html {
 
 .info p {
   line-height: 25px;
-  font-size: 23px;
+  font-size: 22px;
 }
 
 .about h1 {
@@ -178,7 +178,7 @@ html {
 }
 
 .info {
-  margin-right: 100px;
+  margin-right: 56px;
   box-shadow: 0px 2.5px 2.5px 2.5px #00ccff;
   background: linear-gradient(135deg, rgba(137, 139, 139, 0.719), rgba(27, 129, 129, 0));
   backdrop-filter: blur(2px);
@@ -187,7 +187,7 @@ html {
   text-decoration: none;
   border: none;
   border-radius: 22px;
-  padding: 34px;
+  padding: 20px;
   font-size: 20px;
 }
 
@@ -205,8 +205,9 @@ html {
 }
 
 .image img {
-  height: 381px;
-  width: 377px;
+  margin-top: 56px;
+  height: 323px;
+  width: 327px;
   border-radius: 50%;
   box-shadow: 0px 0px 34px 10px #00ccff;
   position: relative;
@@ -830,8 +831,9 @@ html {
 }
 
 .container-certificate {
+  width: 50%;
+  margin: auto;
   display: flex;
-  margin: 34px 72px;
   text-align: center;
   justify-content: center;
   align-items: center;
