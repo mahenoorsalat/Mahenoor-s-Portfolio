@@ -34,11 +34,8 @@ hamburger.addEventListener('click', () => {
 
 // Check if the media query matches
 if (window.matchMedia('(max-width: 420px)').matches) {
-    // Load participle.js only for small screens
     loadScriptAsync('path/to/participle.js', function() {
-        // Initialize the library after it has loaded
         console.log('participle.js loaded and initialized');
-        // Initialize participle.js related functions here
     });
 }
 
