@@ -1288,10 +1288,11 @@ html {
 
 
   .container-certificate {
-    margin: 0px;
+    width: 137%;
+    margin: auto;
     display: flex;
     flex-direction: column;
-  }
+}
 
   .certificate1 img {
     margin-left: 25px;
